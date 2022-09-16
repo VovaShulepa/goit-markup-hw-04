@@ -1,5 +1,8 @@
 
 // ============================MixItUp============================
+
+filterObjects("all");
+
 function filterObjects(c) {
    let x, i;
    x = document.getElementsByClassName("box");
@@ -18,7 +21,7 @@ function addClass(element, name) {
       element.className += " " + arr2[i];
    }
 }
-}
+
 
 function removeClass(element, name) {
    let i, arr1, arr2;
