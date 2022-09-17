@@ -45,7 +45,7 @@ ul {
 
 a {
    text-decoration: none;
-   font-style: normal;
+   /* font-style: normal; */
 }
 
 img {
@@ -203,11 +203,14 @@ img {
    border: none;
    border-radius: 4px;
    letter-spacing: 0.06em;
+   line-height: 30px;
 }
 
 .btn:hover,
 btn:focus {
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   background-color: #1270bd;
+   transition: 0.3s;
 }
 
 /* ==================================================================== */
@@ -323,8 +326,6 @@ btn:focus {
 .team-socials-list {
    display: flex;
    justify-content: center;
-   width: 206px;
-   height: 44px;
    margin: 16px auto 0;
 }
 
@@ -413,6 +414,7 @@ btn:focus {
    line-height: 26px;
    text-align: center;
    cursor: pointer;
+   letter-spacing: 0.03em;
 }
 
 .buttons {
@@ -460,12 +462,23 @@ btn:focus {
    line-height: 2;
    letter-spacing: 0.06em;
    margin-bottom: 4px;
+   color: var(--main-color);
 }
 
 .project-box {
    padding: 20px 24px;
    border: 1px solid #EEEEEE;
    border-top: none;
+}
+
+.project-card {
+   display: block;
+
+}
+
+.project-card:hover,
+.project-card:focus {
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .about-subtitle {
